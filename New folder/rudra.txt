@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Rickkkkk ROLLEEDDDD</title>
+    <style>
+        html, body {
+            margin: 0;
+            height: 100%;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        h1 {
+            padding-top: 20px;
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            cursor: pointer; /* show pointer cursor */
+        }
+    </style>
+</head>
+<body>
+
+    <h1>😘😘😘 You Just Got Rickrolled 😘😘😘</h1>
+
+    <img 
+      src="file:///C:/Users/Student/Pictures/rickroll.gif" 
+      alt="Rickroll GIF" 
+      onclick="document.getElementById('audio').play()" 
+    >
+
+    <audio id="audio">
+        <source src="file:///C:/Users/Student/Downloads/Rick-Roll-Sound-Effect.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+</body>
+</html>

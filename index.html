@@ -1,43 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Rickkkkk ROLLEEDDDD</title>
-    <style>
-        html, body {
-            margin: 0;
-            height: 100%;
-            font-family: Arial, sans-serif;
-            text-align: center;
-        }
-
-        h1 {
-            padding-top: 20px;
-        }
-
-        img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            cursor: pointer;
-        }
-    </style>
+  <title>Rick Roll</title>
+  <style>
+    html, body {
+      margin: 0; padding: 0; height: 100%; text-align: center; font-family: sans-serif;
+    }
+    img {
+      width: 100%; height: 100%; object-fit: cover; cursor: pointer;
+    }
+  </style>
 </head>
 <body>
 
-    <h1>😘😘😘 You Just Got Rickrolled 😘😘😘</h1>
+  <h1>Click the Image to Get Rickrolled 🎶</h1>
 
-    <!-- Clickable image to play audio -->
-    <img 
-      src="rickroll.gif" 
-      alt="Rickroll GIF" 
-      onclick="document.getElementById('audio').play()"
-    >
+  <img src="assets/Rickroll.gif" alt="Rickroll" onclick="document.getElementById('audio').play()">
 
-    <!-- Audio file -->
-    <audio id="audio">
-        <source src="Rick-Roll-Sound-Effect.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-    </audio>
+  <audio id="audio">
+    <source src="assets/Rick-Roll-Sound-Effect.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
 
 </body>
 </html>

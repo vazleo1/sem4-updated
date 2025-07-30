@@ -18,7 +18,7 @@
             width: 100%;
             height: 100%;
             object-fit: cover;
-            cursor: pointer; /* show pointer cursor */
+            cursor: pointer;
         }
     </style>
 </head>
@@ -26,14 +26,16 @@
 
     <h1>😘😘😘 You Just Got Rickrolled 😘😘😘</h1>
 
+    <!-- Clickable image to play audio -->
     <img 
-      src="file:///C:/Users/Student/Pictures/rickroll.gif" 
+      src="rickroll.gif" 
       alt="Rickroll GIF" 
-      onclick="document.getElementById('audio').play()" 
+      onclick="document.getElementById('audio').play()"
     >
 
+    <!-- Audio file -->
     <audio id="audio">
-        <source src="file:///C:/Users/Student/Downloads/Rick-Roll-Sound-Effect.mp3" type="audio/mpeg">
+        <source src="Rick-Roll-Sound-Effect.mp3" type="audio/mpeg">
         Your browser does not support the audio element.
     </audio>
 
